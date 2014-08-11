@@ -1,0 +1,100 @@
+
+#nivo_simplified_meta_box{float:left}
+#full_content {
+  /*float: left;*/
+  width: 98%;
+}
+
+
+
+.content_area {
+  background: none repeat scroll 0 0 #FF550D;
+  float: left;
+  height: auto;
+  margin: 10px 10px 10px 0;
+  min-height: 256px;
+  padding: 0.5em;
+  width: 100%;
+}
+.content_area img {
+  height: 100%;
+  width: 100%;
+}
+
+.content_area > ul {
+  display: inline-block;
+  float: left;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.content_area li {
+  display: inline;
+  float: left;
+  padding: 5px;
+  background: #0ce890;
+  margin: 5px;
+  cursor: move;
+  width:30%;
+  min-height:250px;
+}
+.content_area span {
+  float: left;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.content_area_small {
+  background: none repeat scroll 0 0 #0DB7FF;
+  float: left;
+  height: auto;
+  margin: 10px 10px 10px 0;
+  padding: 0.5em;
+  width: 100%;
+}
+.content_area_small img {
+  height: 100%;
+  width: 100%;
+}
+.content_area > ul {
+  display: inline-block;
+  float: left;
+  list-style: none outside none;
+  margin: 0;
+  min-height: 200px;
+  padding: 0;
+  width: 100%;
+}
+.content_area_small li {
+  display: inline;
+  float: left;
+  padding: 5px;
+  background: #b7c0e5;
+  margin: 5px;
+  cursor: move;
+  width:20%;
+  min-height:180px
+}
+.content_area span {
+  float: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
+.highlight {background:tan !important;}
+
+.ui-icon-trash{color:green}
+.ui-icon-trash:hover{color:red}
+
+.content_area_small span.ui-icon-trash {
+  display: none;
+ 
+}
